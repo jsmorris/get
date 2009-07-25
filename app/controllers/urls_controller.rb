@@ -1,4 +1,7 @@
 class UrlsController < ApplicationController
+  
+  layout 'default'
+  
   # GET /urls
   # GET /urls.xml
   def index
