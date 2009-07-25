@@ -10,6 +10,9 @@ module NavigationHelpers
     
     when /the homepage/
       '/'
+    when /the new link page/
+      new_link_path
+
 
     when /the new frooble page/
       new_frooble_path
